@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1100px;
+}
+
+.grid-template-column{
+    display: grid;
+    grid-template-columns: 400px 750px;
+}
+
+.testing-template{
+    padding:  80px 40px;
+}
+
+.testing-template h1{
+    text-decoration: overline;
+    font-size: 28px;
+    color: #02401d;
+}
+
+.testingemplate img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid aliceblue;
+}
+
+.box-2{
+    background:  #eafaf1;
+}
+
+.box-1{
+    background: #02401d;
+    padding-top: 50px;
+}
+
+/*---------testing-------*/
+
+.testingemplate h1{
+    margin: 20px 0;
+    font-size: 35px;
+    color: aliceblue;
+}
+
+.testingemplate h3{
+    color: aliceblue;
+    font-size: 22px; 
+}
+
+.p-info{
+    margin: 20px 0;
+}
+
+.testingemplate i{
+    margin-right: 15px;
+}
+
+.testingemplate p{
+    margin: 10px 40px;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.testingemplate{
+    text-align: center;
+}
+
+.speakers{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.speak h3{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.education{
+    display: flex;
+    margin: 40px 0;
+}
+
+.edu-subs-2{
+    margin-left: 200px;
+}
+
+.edu-subs-2 h4{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.edu-subs-2 i{
+    margin-right: 15px;
+    color: #02401d;
+}
